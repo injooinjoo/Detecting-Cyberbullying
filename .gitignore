@@ -1,0 +1,9 @@
+data/raw/
+data/processed/
+venv/
+.env
+.ipynb_checkpoints/
+.vscode/
+.idea/
+pycache/
+*.pyc
