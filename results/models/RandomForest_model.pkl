@@ -1,10 +1,1 @@
 
-import joblib
-from sklearn.ensemble import RandomForestClassifier
-
-# 모델 학습 (예시 데이터 사용)
-model = RandomForestClassifier(n_estimators=500, max_depth=20, min_samples_split=2, random_state=42)
-model.fit(X_train, y_train)  # X_train, y_train은 학습 데이터
-
-# 모델 저장
-joblib.dump(model, 'results/models/RandomForest_model.pkl')
